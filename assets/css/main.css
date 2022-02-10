@@ -3219,3 +3219,17 @@ input, select, textarea {
 			}
 
 	}
+
+
+/* ############## */
+
+header {
+	text-align: center;
+}
+
+header hr {
+	border: 1px solid #b2b2b2;
+	max-width: 350px;
+	margin-left: auto;
+}
+
