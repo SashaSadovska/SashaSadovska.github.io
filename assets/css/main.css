@@ -1765,9 +1765,15 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #ffffff90;
+		font-size: 0.9em;
+		line-height: 1.5em;
 		position: relative;
 		margin: 0 0 1.5em 0;
+	}
+
+	header h3 {
+		font-size: 1em;
 	}
 
 	header h2 + p {
@@ -1777,7 +1783,7 @@ input, select, textarea {
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 0.9em;
 		margin-top: -0.8em;
 		line-height: 1.5em;
 	}
@@ -2567,7 +2573,7 @@ input, select, textarea {
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 0.9em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -2592,11 +2598,9 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/back.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-image: url("../../images/back2.jpg");
+		background-position: center;
+		background-size: cover;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -3228,8 +3232,16 @@ header {
 }
 
 header hr {
-	border: 1px solid #b2b2b2;
+	border-bottom: 1px solid #ffffff80;
 	max-width: 350px;
 	margin-left: auto;
+}
+
+
+@media screen and (max-width: 980px) {
+	header hr {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
